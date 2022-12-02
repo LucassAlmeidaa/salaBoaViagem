@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'NaLuiza';
+    src: url('fontes/Shandera-Regular.woff');
+}
+
+@font-face {
+    font-family: 'close';
+    src: url(fontes/Close.otf);
+}
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "NaLuiza";
+
+}
+
+h2{
+    color: #E0E000;
+}
+
+.membros h1{
+    color: #E0E000;
+    text-shadow:  
+      -1px 1px 0 #103778, 
+      -2px 2px 0 #103778, 
+      -3px 3px 0 #103778, 
+      -4px 4px 0 #103778;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "close";
+}
+
+.pessoas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 2rem;
+}
+
+.pessoas img{
+    width: 200px;
+    border-radius: 50%;
+}
+.pessoasInversas img{
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 0.6rem;
+}
+
+
+#info{
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    
+}
+
+.pessoasInversas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 2rem;
+}
+
+#icon{
+    width: 1.5rem;
+}
