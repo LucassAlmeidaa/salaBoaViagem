@@ -16,8 +16,17 @@ body{
     font-family: "NaLuiza";
 }
 
+p{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 17px;
+}
+
 h2{
     color: #E0E000;
+    font-size: 30px;
 }
 
 .membros h1{
