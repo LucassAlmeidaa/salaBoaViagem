@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'manuscrito';
+    src: url(fontes/fontesH2/Leandro\ Daniel.ttf);
+ }
+
+ @font-face {
+    font-family: 'titulo';
+    src: url(fontes/fontesH1/Targa.ttf);
+ }
+
+ @font-face {
+    font-family: 'banana';
+    src: url(fontes/fontesH1/Banana.otf);
+ }
+
+body{
+    background-image: linear-gradient(#80b5ff, #070019);
+    background-repeat: no-repeat;
+    color: white;
+    width: 96vw;
+    height: 70vh;
+}
+
+h1{
+    font-family: 'titulo';
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+h2{
+    font-family: 'manuscrito';
+    position: absolute;
+    font-size: 60px;
+    top: 160px;
+    left: 60px;
+    color: #ff002600;
+    text-shadow:
+    0 0 2px #db6c7c,
+    0 0 5px #ff0026,
+    0 0 17px #ff0026;
+}
+
+.conteudo{
+    margin-top: 180px;
+    margin-left: 90px;
+}
+
+.botoes button{
+    font-family: 'banana';
+    background-color: #d56584;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    border: #d56584 1px solid;
+    margin-top: 10px;
+    margin-left: -15px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-size: 20px;
+    box-shadow: 5px 10px 2px rgba(0, 0, 0, 0.264);
+    margin-bottom: 10px;
+
+}
+
+
+
+.botoes{
+    display: grid;
+    margin-top: 100px;
+}
+
+#linha-horizontal {
+    width: 200px;
+    border: 2px solid #80b5ff;
+}
+

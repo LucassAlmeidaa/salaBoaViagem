@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'manuscrito';
+    src: url(fontes/fontesH2/Leandro\ Daniel.ttf);
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url(fontes/fontesH1/Targa.ttf);
+}
+
+@font-face {
+    font-family: 'banana';
+    src: url(fontes/fontesH1/Banana.otf);
+}
+
+#linha-horizontal {
+    width: 200px;
+    border: 2px solid #80b5ff;
+}
+h2{
+    font-size: 25px;
+    font-family: 'manuscrito';
+    color: #ff002600;
+    text-shadow:
+    0 0 2px #db6c7c,
+    0 0 5px #ff0026,
+    0 0 17px #ff0026;
+}
+
+
+body {
+    background-image: linear-gradient(#80b5ff, #070019);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'titulo';
+    font-size: 15px;
+}
+
+.membro{
+    display: flex;
+    margin-top: 15px;
+}
+.membroInvertido{
+    display: flex;
+    margin-top: 15px;
+}
+
+#imgEquipe{
+    width: 150px;
+    margin-top: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
