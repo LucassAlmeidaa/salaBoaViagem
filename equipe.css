@@ -57,3 +57,14 @@ body {
 a{
     text-decoration: none;
 }
+
+.quadro{
+    border: 5px solid #db6c7c;
+    border-radius: 25px;
+    padding: 15px;
+    width: 350px;
+    font-size: 8px;
+    margin-left: 5px;
+    text-align: justify;
+    font-weight: 400;
+}
